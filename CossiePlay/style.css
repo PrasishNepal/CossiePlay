@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+body 
+{
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #b6b5af;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p 
+{
+	margin-top: 0;
+	margin: 
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+a img 
+{
+	border: none;
+}
+a:link 
+{
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited 
+{
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus 
+{ 
+	text-decoration: none;
+}
+.container {
+	width: 960px;
+	background-color: #C6D580;
+	margin: 0 auto;
+}
+header {
+	background-color: #ADB96E;
+}
+
+
+.sidebar1 
+
+{
+	float: left;
+	width: 180px;
+	background-color: #C6D580;
+	padding-bottom: 356px; /* why is this padding value 0px different in output from (aside) element padding-bottom value 0px?*/
+}
+
+nav a, nav a:visited 
+{ 
+	padding: 5px 5px 5px 15px;
+	display: block; 
+	width: 160px;  
+	text-decoration: none;
+	background-color: #C6D580;
+}
+.content {
+	padding: 10px 0px;
+	width: 600px;
+	float: left;
+	background-color: white;
+	min-height: 600px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: green;
+}
+
+
+aside {
+
+	float: right;
+	width: 180px;
+	background-color: #a7d34e;
+	padding: 10px 0;
+	padding-bottom: 0px;
+}
+
+nav ul{
+	list-style: none;
+	border-top: 1px solid #666;
+	margin-bottom: 15px;
+}
+
+nav li {
+	border-bottom: 1px solid #666;
+}
+
+
+nav a:hover, nav a:active, nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+input[type=search], select 
+{
+  width: 18%;
+  padding: 10px 20px;
+  margin: 20px 0;
+  float: right;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=text], select 
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+footer {
+	padding: 10px 0;
+	background-color: #CCC49F;
+	position: relative;
+	clear: both;
+}
+
+
+header, section, footer, aside, article, figure {
+	display: block;
+}
+</style>
+
+
